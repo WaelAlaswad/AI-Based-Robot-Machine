@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content='320' http-equiv='refresh' />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title>AI Robot</title>
+</head>
+
+<body>
+
+
+    <header>
+        
+
+        <a href="#" class="logo">AI - Robot</a>
+        <nav class="navigation">
+            <a href="#Report">Report</a>
+            <a href="#Documents">Documents</a>
+            
+        </nav>
+    </header>
+
+    <section class="main">
+
+
+        <div>
+            <video id="background-video" autoplay loop muted>
+                <source src="static\4.mp4" type="video/mp4">
+            </video>
+            <h2>AI - Robot <br>
+                <span1>For Syringe Packet Classifiation and Packaging</span1><br>
+                <span2>To
+                    execute Good and
+                    Bad Predictions </span2><br>
+                <span3>and Extract Some Operation Excellence Measures</span3>
+            </h2>
+
+            <h3> Alshifa Medical Products Co. </h3>
+            <br></br>
+            <a href="#Report" class="main-btn">View Machine Report</a>
+
+        </div>
+
+    </section>
+
+    <section class="MachineReport" id="Report">
+        <h2 class="title">Machine Report</h2>
+        <div class="image">
+            <img src=" {{ url_for('static' , filename='Report1.jpg' )}}">
+            <img src=" {{ url_for('static' , filename='Report2.jpg' )}}">
+
+            <img src=" {{ url_for('static' , filename='Report4.jpg' )}}">
+
+
+
+        </div>
+        <div class="image">
+            <img src=" {{ url_for('static' , filename='Report3.jpg' )}}">
+            <img src=" {{ url_for('static' , filename='Report5.jpg' )}}">
+            <img src=" {{ url_for('static' , filename='Report6.jpg' )}}">
+            <img src=" {{ url_for('static' , filename='Report7.jpg' )}}">
+            <img src=" {{ url_for('static' , filename='Report8.jpg' )}}">
+            <img src=" {{ url_for('static' , filename='Report9.jpg' )}}">
+            <img src=" {{ url_for('static' , filename='Report10.jpg' )}}">
+            <img src=" {{ url_for('static' , filename='Report11.jpg' )}}">
+            <img src=" {{ url_for('static' , filename='Report12.jpg' )}}">
+            <img src=" {{ url_for('static' , filename='Report13.jpg' )}}">
+
+        </div>
+
+        <div class="divTable">
+            <div class="row">
+                <div class="cell">
+                    <source
+                        src="file: E:\Local Disk D_3192023833\Private\Programming\AMIT\AI and ML Diploma\Python\Projects\project Elements\Running Hours.html">
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <section>
+        <h2 class="title" id="Documents"> Machine Documents</h2>
+        <div class="content">
+            <a style="text-decoration: none"
+                href="https://drive.google.com/file/d/1rSNet8J8abQJhni6DgOhYxEdiqlwZLM8/view?usp=share_link"
+                target="_blank">
+                <div class="card">
+
+                    <div class="icon">
+
+                        <i class="fa-regular fa-file-pdf"></i>
+                    </div>
+                    <div class="info">
+                        <h3>Machine Manual</h3>
+                        <p>Machine operation and Maintenance Manuals</p>
+                    </div>
+                </div>
+            </a>
+            <a style="text-decoration: none"
+                href="http://eidtech.dyndns-at-work.com/support/RC8_Manual/img/001075/ErrorList.pdf" target="_blank">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-regular fa-file-pdf"></i>
+                    </div>
+                    <div class="info">
+                        <h3>Error Codes</h3>
+                        <p>Machine Troubleshooting and Error Codes Manuals</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
